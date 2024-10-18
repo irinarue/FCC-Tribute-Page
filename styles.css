@@ -1,0 +1,64 @@
+*, *::before, *::after {
+    margin: 0 auto;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 25px;
+    font-family: century;
+    color: rgb(29, 41, 9);
+    background-color: rgb(153, 177, 115);
+}
+
+#header {
+    margin-bottom: 25px;
+}
+
+#title {
+    border-bottom: 1px solid rgb(29, 41, 9);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 11px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+ul {
+    width: 85%;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.reason {
+    display: block;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 5px auto;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color:rgb(63, 103, 0);
+}
